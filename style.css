@@ -1,5 +1,5 @@
 @import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
 /*base-reset, font and colors*/
 
@@ -107,7 +107,7 @@ img {
   display: flex;
 }
 
-.nav-list  a {
+.nav-list a {
   display: block;
   padding: 2rem;
   font-size: 4.5rem;
@@ -124,14 +124,17 @@ img {
   display: flex;
   flex-direction: column;
   background-color: var(--blue-grey);
-  background-image: linear-gradient(var(--main-grey) -20%, var(--blue-grey) 100%);
+  background-image: linear-gradient(
+    var(--main-grey) -20%,
+    var(--blue-grey) 100%
+  );
   height: 100vh;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.welcome > p{
+.welcome > p {
   font-size: 3.5rem;
   color: var(--main-gold);
   text-transform: uppercase;
@@ -177,12 +180,12 @@ img {
 
 .symbol {
   color: var(--blue-grey);
-  transition: color .3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .project-tile:hover .symbol {
-    color: var(--main-gold);
-  }
+  color: var(--main-gold);
+}
 
 .project-title {
   font-size: 4rem;
@@ -205,7 +208,7 @@ img {
     padding-bottom: 8rem;
   }
 }
- 
+
 /*contact-section*/
 
 .contact {
@@ -218,7 +221,6 @@ img {
   width: 100%;
   height: 70vh;
   padding: 0 1rem;
-  
 }
 
 .contact-header > h2 {
@@ -243,13 +245,13 @@ img {
 .contact-btn {
   display: inline-block;
   padding: 1rem 2rem;
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 i {
   color: var(--main-gold);
   text-shadow: 1px 1px 1px var(--main-brown);
-  transition: transform .3s ease-out, scale .3s ease-in;
+  transition: transform 0.3s ease-out, scale 0.3s ease-in;
 }
 
 .contact-btn:hover {
@@ -257,9 +259,8 @@ i {
 }
 
 .contact-btn:hover i {
- transform: translateX(-4px) scale(1.2);
+  transform: translateX(-4px) scale(1.2);
 }
-
 
 /*footer*/
 
