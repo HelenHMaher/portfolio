@@ -32,9 +32,6 @@ html {
   html {
     font-size: 6px;
   }
-  #techdoc-title {
-    font-size: 5.8px;
-  }
 }
 
 @media (max-width: 980px) {
