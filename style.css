@@ -38,6 +38,9 @@ html {
   html {
     font-size: 5.8px;
   }
+  #techdoc-title {
+    font-size: 4px;
+  }
 }
 
 @media (max-width: 460px) {
