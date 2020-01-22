@@ -189,11 +189,12 @@ img {
 
 .project-title {
   font-size: 4rem;
-  padding: 3rem 0.5rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
 .project-image {
+  width: 100%;
   height: calc(100% - 7.5rem);
   object-fit: cover;
 }
